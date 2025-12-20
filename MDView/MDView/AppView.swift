@@ -1,6 +1,6 @@
 //
-//  iMDVApp.swift
-//  iMDV
+//  AppView.swift
+//  MDView
 //
 //  Created by OSX on 2025/12/16.
 //

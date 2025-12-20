@@ -1,5 +1,5 @@
 //
-//  Untitled.swift
+//  MDVTests.swift
 //  MDV
 //
 //  Created by OSX on 2025/12/16.
@@ -15,7 +15,7 @@ struct MDVTests {
         [Blog](https://ichochy.com)  
         [GitHub](https://github.com/ichochy/mdv)
         """
-        MDView().debugDescription()
-        MDView(md).debugDescription()
+        // 调试，打印 markdown 的树形结构
+        MDView.debugDescription(md)
     }
 }

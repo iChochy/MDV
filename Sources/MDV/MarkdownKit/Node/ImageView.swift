@@ -1,6 +1,6 @@
 //
 //  ImageView.swift
-//  iMenu
+//  MDV
 //
 //  Created by OSX on 2025/12/3.
 //
@@ -50,7 +50,7 @@ struct ImageView: View {
             RoundedRectangle(cornerRadius: 8)
                 .stroke(Color.gray.opacity(0.2), lineWidth: 1)
         )
-        .task {
+        .task(id: image.source) {
             await loadImage()
         }
     }
@@ -104,6 +104,7 @@ struct ImageView: View {
                 imageData = try loadLocalImage(from: source)
             }
         } catch {
+            imageData = nil
             print("加载图片失败: \(error.localizedDescription)")
         }
         isLoading = false

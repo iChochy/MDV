@@ -1,6 +1,6 @@
 //
-//  HeadingView.swift
-//  iMenu
+//  ThematicBreakView.swift
+//  MDV
 //
 //  Created by OSX on 2025/12/3.
 //

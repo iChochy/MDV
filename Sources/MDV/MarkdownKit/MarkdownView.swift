@@ -1,6 +1,6 @@
 //
 //  MarkdownView.swift
-//  iMenu
+//  MDV
 //
 //  Created by OSX on 2025/12/3.
 //
@@ -26,5 +26,16 @@ struct MarkdownView: View {
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
+    }
+
+    
+    static func AST(_ md: String) -> Document {
+        let document = Document(parsing: md)
+        return document
+    }
+
+    static func debugDescription(_ md: String) {
+        let document = Document(parsing: md)
+        print(document.debugDescription())
     }
 }
