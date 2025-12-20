@@ -1,7 +1,7 @@
 ## 这是 `MDV` 包的展示示例。
 
 # MDV
-**MDV** 是一个开源的 `Markdown` 展示包。在 `SwiftUI` 中展示 `Markdown`。
+**MDV** 一个开源的 `Markdown` 展示包。在 `SwiftUI` 中展示 `Markdown`。
 
 ## 功能特性
 - 支持标题

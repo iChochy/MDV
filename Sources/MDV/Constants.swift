@@ -9,7 +9,7 @@
 public enum Constants{
     public static let markdownText = """
             # MDV
-            **MDV** 是一个开源的 `Markdown` 展示库。在 `SwiftUI` 中展示 `Markdown`。
+            **MDV** 一个开源的 `Markdown` 展示库。在 `SwiftUI` 中展示 `Markdown`。
             
             ## 功能特性
             - 支持标题
